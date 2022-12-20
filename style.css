@@ -1,0 +1,133 @@
+body{
+    background-color: brown ;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+
+}
+
+#header{
+    background-color: peru;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+}
+#navbar {
+    background-color: peru;
+    margin: 10px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+#navbar ul {
+    padding: 5px;
+    list-style-type:circle;
+    text-align: center;
+    background-color: peru;
+    margin: 10px;
+}
+
+#navbar ul li{
+    display: inline;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .2rem 1em;
+    color: brown;
+    background-color: chocolate(137, 183, 214);
+}
+
+#navbar ul li a:hover{
+    color: peru(211, 176, 22, 0.801);
+    background-color: chocolate(102, 119, 25);
+}
+
+.main {
+    background-color: peru;
+    margin-left: 10px;
+    margin-right: 320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+}
+
+.main-one {
+    background-color: peru;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+}
+
+
+.container1{
+    background-color: teal;
+    margin-left: 10px;
+    margin-right: 320;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+}
+
+.sideright{
+    background-color: peru;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 105%;
+    float: right;
+    width: 260px;
+}
+
+
+
+#footer{
+    background-color: peru;
+    margin: 10px;
+    height: 60px;
+    clear: both;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 120%;
+    color: salmon;
+}
+
+h2{
+    font-size: 120%;
+    color: salmon;
+
+}
+
+h3{
+    font-size: 250%;
+    text-align: center;
+    color: salmon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h4{
+    font-size: 120%;
+    color: salmon;
+    text-decoration: underline;
+}
