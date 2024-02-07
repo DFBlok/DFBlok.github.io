@@ -1,133 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 body{
-    background-color: brown ;
-    margin: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
-
+    background-color: #0b2e13;
+    color: white
 }
 
-#header{
-    background-color: peru;
-    margin: 10px;
-    height: 90px;
-    border-radius: 5px;
+header{
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
 }
+
 #navbar {
-    background-color: peru;
-    margin: 10px;
-    height: 35px;
-    border-radius: 5px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#navbar ul {
-    padding: 5px;
-    list-style-type:circle;
-    text-align: center;
-    background-color: peru;
-    margin: 10px;
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
 }
 
-#navbar ul li{
-    display: inline;
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+    gap: 30px;
 }
 
-#navbar ul li a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: .2rem 1em;
-    color: brown;
-    background-color: chocolate(137, 183, 214);
-}
-
-#navbar ul li a:hover{
-    color: peru(211, 176, 22, 0.801);
-    background-color: chocolate(102, 119, 25);
-}
-
-.main {
-    background-color: peru;
-    margin-left: 10px;
-    margin-right: 320px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 110%;
-}
-
-.main-one {
-    background-color: peru;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 110%;
-}
-
-
-.container1{
-    background-color: teal;
-    margin-left: 10px;
-    margin-right: 320;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 110%;
-}
-
-.sideright{
-    background-color: peru;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 105%;
-    float: right;
-    width: 260px;
-}
-
-
-
-#footer{
-    background-color: peru;
-    margin: 10px;
-    height: 60px;
-    clear: both;
+button{
+    background-color: #387ed1;
+    color: white;
+    padding:  10px 20px;
+    margin-top: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
     border-radius: 5px;
 }
 
-h1{
-    font-size: 120%;
-    color: salmon;
+button:hover{
+    background-color: black;
+    transition: all 1ms;
 }
 
-h2{
-    font-size: 120%;
-    color: salmon;
-
+/* flexibox */
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
 }
 
-h3{
-    font-size: 250%;
-    text-align: center;
-    color: salmon;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0px;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+.box{
+    text-align:start;
+    font-size: 1rem;
 }
 
-h4{
-    font-size: 120%;
-    color: salmon;
-    text-decoration: underline;
+
+#box1{
+    margin-right: 50px;
+}
+
+#box2{
+    
+    align-items: start;
+}
+
+#M-box1{
+    background-color: #387ed1;
+    border: 5px solid red;
+    
+}
+
+#M-box2{
+    background-color: beige;
+    border: 5px solid red;
+}
+
+#M-box3{
+    background-color: #387ed1;
+    border: 5px solid red;
+}
+
+#M-box4{
+    background-color: aqua;
+    border: 5px solid red;
 }
