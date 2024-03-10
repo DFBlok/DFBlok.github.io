@@ -65,7 +65,14 @@ span {
     font-size: 60px;
 }
 
+#container-content {
+    font-size: xx-large; 
+}
 
+#about-header button a{
+    text-decoration: none;
+    color: white;
+}
 
 /* flexibox */
 .container {
@@ -117,6 +124,7 @@ span {
 
 #box1{
     margin: 50px 0;
+    /* font-size: xx-large; */
 }
 
 #box2{
@@ -186,4 +194,53 @@ nav ul li a{
 .contact-header p{
     text-align: center;
     padding-bottom: 5px;
+}
+
+.section1 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 30px 10px;
+    background-color: #333;
+}
+
+.bio {
+    display: table-column;
+    width: 41%;
+}
+
+.bio h1 {
+    display: block;
+}
+
+#info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+#quote {
+    font-style: italic !important;
+    padding: 10px 0;
+}
+
+.img-section {
+    width: 33.3%;
+}
+
+#about-header {
+    text-align: center;
+}
+
+#about-header p {
+margin: 10px 0;
+}
+
+.col-lg-6 li{
+    padding-bottom: 5px;
+}
+
+.bottom-section p{
+    margin: 20px 0;
 }
