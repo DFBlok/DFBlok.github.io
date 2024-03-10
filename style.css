@@ -55,6 +55,7 @@ button:hover{
     transition: all 1ms;
 }
 
+
 /* flexibox */
 .container {
     display: flex;
@@ -64,40 +65,51 @@ button:hover{
     height: 90vh;
 }
 
+/*************************project section start*****************************/
+/*PROJECT page*/
+.flex-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    /* height: 90vh; */
+    /* padding: 30px 30px; */
+    margin-top: 50px;
+}
+
+.proj-box{
+    text-align:center;
+    padding: 50px 50px;
+    font-size: 1rem;
+    border: 5px solid white;
+    
+}
+
+.proj-box button{
+    margin-top: 20px;
+}
+/*************************project section end*****************************/
+
 .box{
     text-align:start;
+    padding: 50px 50px;
     font-size: 1rem;
 }
 
-
 #box1{
-    margin-right: 50px;
+    margin: 50px 0;
 }
 
 #box2{
-    
-    align-items: start;
+    margin: 50px 0;
 }
 
-#M-box1{
-    background-color: #387ed1;
-    border: 5px solid red;
-    
+#box3 {
+    margin: 50px 0;
 }
 
-#M-box2{
-    background-color: beige;
-    border: 5px solid red;
-}
-
-#M-box3{
-    background-color: #387ed1;
-    border: 5px solid red;
-}
-
-#M-box4{
-    background-color: aqua;
-    border: 5px solid red;
+#box4 {
+    margin: 50px 0;
 }
 
 #logo a{
