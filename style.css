@@ -55,6 +55,17 @@ button:hover{
     transition: all 1ms;
 }
 
+span {
+    color: #CD8D7A;
+    display: flex;
+    font-size: 40px;
+}
+
+.content h3 {
+    font-size: 60px;
+}
+
+
 
 /* flexibox */
 .container {
@@ -90,10 +101,18 @@ button:hover{
 }
 /*************************project section end*****************************/
 
+
+
 .box{
     text-align:start;
     padding: 50px 50px;
     font-size: 1rem;
+}
+
+.box button a {
+    text-decoration: none;
+    color: white;
+    margin-top: 90px;
 }
 
 #box1{
