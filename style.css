@@ -174,3 +174,16 @@ nav ul li a{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 20px;
 }
+
+
+.contact-header h1 {
+    margin: 0;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.contact-header p{
+    text-align: center;
+    padding-bottom: 5px;
+}
