@@ -142,3 +142,35 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
+
+.contact-info {
+    background-color: grey;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info h3 i {
+    margin-right: 10px;
+}
+
+#main {
+    margin: 150px 0;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
